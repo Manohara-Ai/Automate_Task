@@ -24,9 +24,7 @@ This repository contains a collection of scripts and tools to automate various d
 
 Before running the scripts, ensure you have the following installed and configured:
 
-- **Python Libraries**  
-  - `smtplib`: For sending emails programmatically.  
-  - `email.mime`: To format email content, including HTML and plain text.  
+- **Python Libraries to Install**  
   - `pywhatkit`: For automating WhatsApp messages.  
 
 - **Email Sender Configuration**  
