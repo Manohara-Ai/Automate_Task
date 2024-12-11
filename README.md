@@ -11,6 +11,9 @@ This repository contains a collection of scripts and tools to automate various d
   
 - **WhatsApp Message Automation**  
   Schedule and send WhatsApp messages using APIs or web automation tools.
+
+- **Event Check-in with QR Code Automation**
+  This feature allows you to automate event check-ins using QR codes. The system creates QR codes and also scans QR codes via webcam, decodes the data, and tracks event entries in an Excel sheet. The check-in is timestamped, and it prevents multiple check-ins for the same person.
   
 - **Flexible and Modular Design**  
   Easily extend the repository to include additional automation tasks.
@@ -25,7 +28,11 @@ This repository contains a collection of scripts and tools to automate various d
 Before running the scripts, ensure you have the following installed and configured:
 
 - **Python Libraries to Install**  
-  - `pywhatkit`: For automating WhatsApp messages.  
+  - `pywhatkit`: For automating WhatsApp messages.
+  - `pyzbar`: For decoding QR codes.
+  - `opencv-python`: For webcam interaction and real-time video frame processing.
+  - `pandas`: For managing the event entry data in an Excel sheet.
+  - `openpyxl`: For reading and writing to `.xlsx` files.
 
 - **Email Sender Configuration**  
   - For institutional accounts:  
@@ -37,7 +44,10 @@ Before running the scripts, ensure you have the following installed and configur
 
 - **WhatsApp Automation**  
   - Ensure WhatsApp Web is active on your device.  
-  - Include phone numbers in international format with the country code (e.g., `+911234567890`).  
+  - Include phone numbers in international format with the country code (e.g., `+911234567890`).
+
+- **Webcam Configuration**  
+  - Ensure your webcam is properly connected and accessible by OpenCV for QR_Based_Task.
 
 - **Python Version**  
   - Python 3.8 or higher is recommended.  
