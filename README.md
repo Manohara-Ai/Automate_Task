@@ -12,12 +12,9 @@ This repository contains a collection of scripts and tools to automate various d
 - **WhatsApp Message Automation**  
   Schedule and send WhatsApp messages using APIs or web automation tools.
 
-- **WhatsApp Message Automation**  
-  Schedule and send WhatsApp messages using APIs or web automation tools.
-
 - **Event Check-in with QR Code Automation**
-This feature allows you to automate event check-ins using QR codes. The system creates QR codes and also scans QR codes via webcam, decodes the data, and tracks event entries in an Excel sheet. The check-in is timestamped, and it prevents multiple check-ins for the same person.
-  
+  This feature allows you to automate event check-ins using QR codes.
+
 - **Flexible and Modular Design**  
   Easily extend the repository to include additional automation tasks.
   
